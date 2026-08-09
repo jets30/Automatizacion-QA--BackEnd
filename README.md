@@ -41,6 +41,20 @@ Para ejecutar solo la suite principal del reto:
 mvn test -Dtest=features.users.UsersRunner
 ```
 
+## Limpieza de evidencias
+
+Para dejar limpia la carpeta de reportes generados por Karate antes de subir cambios o reejecutar la suite:
+
+```bash
+rm -rf target/karate-reports target/surefire-reports target/test-classes
+```
+
+En Windows PowerShell, el equivalente sería:
+
+```powershell
+Remove-Item -Recurse -Force target\karate-reports, target\surefire-reports, target\test-classes
+```
+
 ## Estructura del proyecto
 
 ```text

@@ -1,0 +1,18 @@
+# Maven build output
+/target/
+
+# Test reports and evidence
+/target/karate-reports/
+/target/surefire-reports/
+/target/test-classes/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# IDE and OS files
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
