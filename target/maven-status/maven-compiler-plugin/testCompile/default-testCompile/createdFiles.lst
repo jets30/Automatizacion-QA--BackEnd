@@ -1,4 +1,2 @@
-runners\ParallelRunner.class
 runners\TestRunner.class
 features\users\UsersRunner.class
-runners\RunnerTemp.class
